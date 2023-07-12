@@ -1,0 +1,22 @@
+
+ .navbar {
+  height: 100vh;
+   background-image: -webkit-image-set("https://wallpaperaccess.com/full/4181548.jpg"); 
+  background-color: black; 
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; 
+} 
+.a {
+  padding: 10px;
+  width: 150px;
+  background-color: #88acd5bc;
+  color: black;
+  font-weight: bold;
+  border-radius: 0px;
+  float: right;
+  border-width: 0px;
+}
+.a:hover {
+  background-color: rgb(240, 240, 243);   
+}
