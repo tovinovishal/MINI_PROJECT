@@ -1,0 +1,22 @@
+.whole {
+    background-color:smokewhite;
+    height: 100vh;
+    width: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    
+   
+  }
+  
+  .box {
+      justify-content: space-between;
+    display: flexbox;
+    flex-wrap: wrap;
+    align-items: center;
+    /* margin-left: 50px;
+    margin-top: -580px; */
+   
+
+  }
+  

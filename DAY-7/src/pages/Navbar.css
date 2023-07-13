@@ -1,0 +1,119 @@
+.homeContainer{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    }
+    .navbar a{
+      color: rgb(14, 14, 14);
+    }
+    .navbar a:hover{
+      color: rgb(243, 243, 250);
+      border-radius: 15em;
+    }
+   
+    .navbar {
+      z-index: 1;
+      height: 30px;
+      display: flex;
+      background-color: rgb(240, 238, 238);
+      top: 0;
+      left: 0;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px;
+      background: transparent;
+      font-size:x-small
+    }
+    
+    /* .navbar-logo {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color:rgb(237, 237, 237);
+      font-weight: bold;
+      font-size: 30px;
+    }
+     */
+    
+    
+    .nav-items  {
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+      font-weight: normal;
+      
+     
+    }
+    .nav-items a {
+     
+      font-family: "Goudy Bookletter 1911", sans-serif;
+    
+    }
+    
+    .nav-items li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      margin-right: 10px;
+      /* color: lightgreen; */
+    }
+    
+    .nav-items li a {
+      text-decoration: none;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+    
+    .nav-items li a:hover {
+      color: rgb(11, 11, 11);
+      border-radius: 15em;
+      
+    }
+    
+    button {
+      border: none;
+      background-color: #888;
+      padding: 8px 16px;
+      margin-left: 10px;
+      cursor: pointer;
+      font-size: 16px;
+      background-color: transparent;
+      transition: background-color 0.3s ease;
+    }
+    button:hover{
+      background-color: #ff6b6b;
+    }
+    button a {
+      color: #fff;
+      font-weight: bold;
+      font-size: 26px;
+      text-decoration: none;
+    }
+    
+    button:hover {
+      background-color: white;
+    }
+    .content {
+      
+    
+      font-family:'Courier New', Courier, monospace;
+        font-family: "Caveat", cursive;
+        font-family: "Comforter", cursive;
+      font-family: "Rubik Mono One", sans-serif;  
+      font-size: 20px;
+      text-align: center;
+      margin-top: 1em;
+      color: rgb(248, 240, 240);
+      /* display: flex ; */
+    }
+    .button-known{
+      margin-top: 2em;
+      margin-left: 25em;
+      font-weight: bold;
+      font-size: 26px;
+      text-decoration: none;
+      background-color: white;
+    }
