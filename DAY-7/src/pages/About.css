@@ -1,0 +1,158 @@
+.whybuy{
+    background-color:#007ece;
+    display:flex;
+    flex-direction:row;
+    color:white;
+    padding:5%;
+    font-size:120%;
+  }
+  .fa-bolt{
+    font-size:400%;
+    margin-bottom:20px;
+  }
+  .fa-university{
+    font-size:400%;
+    margin-bottom:20px;
+  }
+  .fa-heart{
+    font-size:400%;
+    margin-bottom:20px;
+  }
+  .brief1{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content: center;
+    padding:2%;
+  }
+  .brief2{
+     padding:4%;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+  }
+  .brief3{
+     padding:2%;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+  }
+  .takeproduct{
+    /*   background-color: rgba(0, 126, 206, 0.1); */
+      background-color:#27a4f4;
+      padding:5%;
+      color:white;
+    }
+    .takeproducthead{
+      text-align:center;
+      display: flex;
+      justify-content: center; 
+      font-size:180%;
+      font-weight:600;
+    }
+    .takeproductinfo{
+      margin-top:25px;
+      font-size:120%;
+      font-weight:100;
+      margin-left:80px;
+      margin-right:80px;
+    }
+    .testimonial{
+      padding:5%;
+      background-color: rgba(0, 126, 206, 0.1);
+      text-align:center;
+      display: flex;
+      justify-content: center; 
+      flex-direction:column;
+    }
+    .testimonialcomment{
+        font-size:180%;
+    }
+    .testimonialcustomer{
+     font-style: italic; 
+      margin-top:5px;
+      font-size: 105%;
+    }
+    .reasons{
+        background-color: #154c79;
+      color:white;
+      padding:5%;
+      display: flex;
+      justify-content: center; 
+      flex-direction:column;
+    }
+    .reasonss{
+      display: flex;
+      flex-direction:row;
+      text-align:left;
+      display: flex;
+      justify-content: center;
+      margin-top:45px;
+      font-size:130%;
+    }
+    .reasonshead{
+      text-align:center;
+      font-size:180%;
+    }
+    .reasons1{
+      margin-left:10%;
+      margin-right:10%;
+    }
+    .reasons2{
+      margin-left:10%;
+      margin-right:10%;
+    }
+    .buying{
+      padding:5%;
+      text-align:center;
+      display: flex;
+      justify-content: center; 
+      flex-direction:column;
+      font-size:140%;
+      font-weight:600;
+      background-color:whitesmoke;
+    }
+    .buyinghead{
+      font-size:180%;
+      margin-bottom:25px;
+    }
+    .buyingbutton button{
+      color:white;
+      background-color: #154c79;
+      border-radius: 5px;
+    }
+    .buyingbutton button:hover{
+      opacity: 0.9;
+      border: visible;
+    }
+    
+    .footer{
+      padding:4%;
+      background: #2d2b2a;
+      color:white;
+      display:flex; 
+      flex-direction:column;
+      justify-items: center;
+    }
+    .footer1{
+      display:flex; 
+      flex-direction:row;
+      text-align:center;
+      justify-content: center;
+    }
+    .footer11, .footer12, .footer13{
+        margin-left: 5%;
+      margin-right: 5%;
+      cursor:pointer;
+    }  
+    .footer2{
+      margin-top:15px;
+       text-align:center;
+      justify-content: center;
+        cursor:pointer;
+    
+    }
