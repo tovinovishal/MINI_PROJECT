@@ -1,0 +1,81 @@
+
+.wh {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/783942/pexels-photo-783942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    font-family: "Times New Roman", Times, serif;
+    overflow: hidden;
+  }
+  
+  .c1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .sf {
+    width: 100%;
+    max-width: 400px;
+    padding: 50px;
+    border: 1px solid #290ddc;
+    border-radius: 10px;
+    background: #314755;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin-top: 50px;
+    
+  }
+  .sp{
+    color: rgb(15, 16, 16);
+    margin-top: 10%;
+  }
+  .error-message {
+    color: #f00;
+    text-align: center;
+  }
+  
+  .inp {
+    width: 100%;
+    margin-bottom: 20px;    
+    font-family: cursive;
+  }
+  
+  .logbtn button,
+  .up button {
+    width: 30%;
+    padding: 10px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    cursor: pointer;
+  }
+  
+  /* .logbtn button:hover,
+  .up button:hover {
+    background-color: rgb(111, 155, 193);
+  }
+   */
+  @media (max-width: 768px) {
+    .signup-form {
+      width: 80%;
+    }
+  }
+  .in{
+    border-width: 0px;
+
+  }
+  .b{
+    background-color: #1181b9;
+    width: 30%;
+    margin-left: 35%;
+  }
+  .b:hover{
+    background-color: azure;
+  }

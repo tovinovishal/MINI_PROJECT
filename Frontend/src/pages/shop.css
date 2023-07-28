@@ -1,0 +1,53 @@
+.total {
+  height: 100%;
+  background: #ff7e5f;
+  background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);
+  background: linear-gradient(to right, #feb47b, #ff7e5f);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.card1 {
+  display: block;
+  background-color: transparent;
+  border: 1px solid #f8fbfa;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.card2 {
+  display: block;
+  background-color: transparent;
+  border: 1px solid #e8eceb;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  margin-top: 50px;
+  width: auto;
+  justify-content: space-evenly;
+}
+
+/* Additional CSS for responsive layout */
+@media (max-width: 736px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .card1, .card2 {
+    margin: 10px;
+    width: calc(50% - 20px);
+  }
+  .top ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
